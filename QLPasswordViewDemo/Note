@@ -1,0 +1,7 @@
+类似于支付宝、微信等输入密码的间隔样式的textfield(类似于)
+
+方法一：将textfield上添加N个label，通过监听textfield的输入变化来实现label上面显示字符的变化
+
+方法二：将一个view上添加N个textfield，通过监听输入的情况来将某个textfield变为becomeFirstResponder，来实现输入的情况
+
+方法三：使用UIKeyInput协议来实现输入

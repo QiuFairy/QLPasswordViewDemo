@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41145403229F65BB00E614EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41145402229F65BB00E614EC /* AppDelegate.m */; };
+		41145406229F65BB00E614EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41145405229F65BB00E614EC /* ViewController.m */; };
+		41145409229F65BB00E614EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41145407229F65BB00E614EC /* Main.storyboard */; };
+		4114540B229F65BC00E614EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4114540A229F65BC00E614EC /* Assets.xcassets */; };
+		4114540E229F65BC00E614EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4114540C229F65BC00E614EC /* LaunchScreen.storyboard */; };
+		41145411229F65BC00E614EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41145410229F65BC00E614EC /* main.m */; };
+		4114541A229F688500E614EC /* Note in Resources */ = {isa = PBXBuildFile; fileRef = 41145419229F688500E614EC /* Note */; };
+		4114541F229F70DF00E614EC /* QLVerificationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4114541E229F70DF00E614EC /* QLVerificationTextField.m */; };
+		41145422229F714800E614EC /* QLVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41145421229F714800E614EC /* QLVerificationCodeView.m */; };
+		41145425229F747200E614EC /* QLPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41145424229F747200E614EC /* QLPasswordView.m */; };
+		41145428229F765E00E614EC /* QLPasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 41145427229F765E00E614EC /* QLPasswordTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		411453FE229F65BB00E614EC /* QLPasswordViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLPasswordViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41145401229F65BB00E614EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41145402229F65BB00E614EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41145404229F65BB00E614EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41145405229F65BB00E614EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41145408229F65BB00E614EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4114540A229F65BC00E614EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4114540D229F65BC00E614EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4114540F229F65BC00E614EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41145410229F65BC00E614EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41145419229F688500E614EC /* Note */ = {isa = PBXFileReference; lastKnownFileType = text; path = Note; sourceTree = "<group>"; };
+		4114541D229F70DF00E614EC /* QLVerificationTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLVerificationTextField.h; sourceTree = "<group>"; };
+		4114541E229F70DF00E614EC /* QLVerificationTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLVerificationTextField.m; sourceTree = "<group>"; };
+		41145420229F714800E614EC /* QLVerificationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLVerificationCodeView.h; sourceTree = "<group>"; };
+		41145421229F714800E614EC /* QLVerificationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLVerificationCodeView.m; sourceTree = "<group>"; };
+		41145423229F747200E614EC /* QLPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLPasswordView.h; sourceTree = "<group>"; };
+		41145424229F747200E614EC /* QLPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPasswordView.m; sourceTree = "<group>"; };
+		41145426229F765E00E614EC /* QLPasswordTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLPasswordTextField.h; sourceTree = "<group>"; };
+		41145427229F765E00E614EC /* QLPasswordTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPasswordTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411453FB229F65BB00E614EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411453F5229F65BB00E614EC = {
+			isa = PBXGroup;
+			children = (
+				41145400229F65BB00E614EC /* QLPasswordViewDemo */,
+				411453FF229F65BB00E614EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411453FF229F65BB00E614EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411453FE229F65BB00E614EC /* QLPasswordViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41145400229F65BB00E614EC /* QLPasswordViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				41145419229F688500E614EC /* Note */,
+				41145401229F65BB00E614EC /* AppDelegate.h */,
+				41145402229F65BB00E614EC /* AppDelegate.m */,
+				41145404229F65BB00E614EC /* ViewController.h */,
+				41145405229F65BB00E614EC /* ViewController.m */,
+				41145417229F65BF00E614EC /* plan_1 */,
+				4114541B229F6E4E00E614EC /* plan_2 */,
+				4114541C229F6E5800E614EC /* plan_3 */,
+				41145407229F65BB00E614EC /* Main.storyboard */,
+				4114540A229F65BC00E614EC /* Assets.xcassets */,
+				4114540C229F65BC00E614EC /* LaunchScreen.storyboard */,
+				4114540F229F65BC00E614EC /* Info.plist */,
+				41145410229F65BC00E614EC /* main.m */,
+			);
+			path = QLPasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		41145417229F65BF00E614EC /* plan_1 */ = {
+			isa = PBXGroup;
+			children = (
+				41145423229F747200E614EC /* QLPasswordView.h */,
+				41145424229F747200E614EC /* QLPasswordView.m */,
+			);
+			path = plan_1;
+			sourceTree = "<group>";
+		};
+		4114541B229F6E4E00E614EC /* plan_2 */ = {
+			isa = PBXGroup;
+			children = (
+				4114541D229F70DF00E614EC /* QLVerificationTextField.h */,
+				4114541E229F70DF00E614EC /* QLVerificationTextField.m */,
+				41145420229F714800E614EC /* QLVerificationCodeView.h */,
+				41145421229F714800E614EC /* QLVerificationCodeView.m */,
+			);
+			path = plan_2;
+			sourceTree = "<group>";
+		};
+		4114541C229F6E5800E614EC /* plan_3 */ = {
+			isa = PBXGroup;
+			children = (
+				41145426229F765E00E614EC /* QLPasswordTextField.h */,
+				41145427229F765E00E614EC /* QLPasswordTextField.m */,
+			);
+			path = plan_3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411453FD229F65BB00E614EC /* QLPasswordViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41145414229F65BC00E614EC /* Build configuration list for PBXNativeTarget "QLPasswordViewDemo" */;
+			buildPhases = (
+				411453FA229F65BB00E614EC /* Sources */,
+				411453FB229F65BB00E614EC /* Frameworks */,
+				411453FC229F65BB00E614EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLPasswordViewDemo;
+			productName = QLPasswordViewDemo;
+			productReference = 411453FE229F65BB00E614EC /* QLPasswordViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411453F6229F65BB00E614EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qiu;
+				TargetAttributes = {
+					411453FD229F65BB00E614EC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 411453F9229F65BB00E614EC /* Build configuration list for PBXProject "QLPasswordViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411453F5229F65BB00E614EC;
+			productRefGroup = 411453FF229F65BB00E614EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411453FD229F65BB00E614EC /* QLPasswordViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411453FC229F65BB00E614EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4114540E229F65BC00E614EC /* LaunchScreen.storyboard in Resources */,
+				4114540B229F65BC00E614EC /* Assets.xcassets in Resources */,
+				4114541A229F688500E614EC /* Note in Resources */,
+				41145409229F65BB00E614EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411453FA229F65BB00E614EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41145406229F65BB00E614EC /* ViewController.m in Sources */,
+				4114541F229F70DF00E614EC /* QLVerificationTextField.m in Sources */,
+				41145425229F747200E614EC /* QLPasswordView.m in Sources */,
+				41145411229F65BC00E614EC /* main.m in Sources */,
+				41145422229F714800E614EC /* QLVerificationCodeView.m in Sources */,
+				41145403229F65BB00E614EC /* AppDelegate.m in Sources */,
+				41145428229F765E00E614EC /* QLPasswordTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41145407229F65BB00E614EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41145408229F65BB00E614EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4114540C229F65BC00E614EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4114540D229F65BC00E614EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41145412229F65BC00E614EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41145413229F65BC00E614EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41145415229F65BC00E614EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.QLPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41145416229F65BC00E614EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.QLPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411453F9229F65BB00E614EC /* Build configuration list for PBXProject "QLPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41145412229F65BC00E614EC /* Debug */,
+				41145413229F65BC00E614EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41145414229F65BC00E614EC /* Build configuration list for PBXNativeTarget "QLPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41145415229F65BC00E614EC /* Debug */,
+				41145416229F65BC00E614EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411453F6229F65BB00E614EC /* Project object */;
+}
